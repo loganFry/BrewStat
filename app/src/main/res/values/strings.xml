@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BrewStat</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_my_coffees">My Coffees</string>
+    <string name="title_brew">Brew</string>
+    <string name="title_history">History</string>
+</resources>

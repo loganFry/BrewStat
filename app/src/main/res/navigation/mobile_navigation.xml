@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_brew">
+
+    <fragment
+        android:id="@+id/navigation_brew"
+        android:name="com.brewstat.ui.brew.BrewFragment"
+        android:label="@string/title_brew"
+        tools:layout="@layout/fragment_brew" />
+
+    <fragment
+        android:id="@+id/navigation_my_coffees"
+        android:name="com.brewstat.ui.my_coffees.MyCoffeesFragment"
+        android:label="@string/title_my_coffees"
+        tools:layout="@layout/fragment_my_coffees" />
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.brewstat.ui.history.HistoryFragment"
+        android:label="@string/title_history"
+        tools:layout="@layout/fragment_notifications" />
+</navigation>
